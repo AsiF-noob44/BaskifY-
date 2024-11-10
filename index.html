@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaskifY</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/output-onlinepngtools.png" type="image/x-icon">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css">
+
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header with Navbar -->
+    <header id="home">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark-subtle fixed-top shadow-lg">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav ms-auto text-center text-uppercase">
+                        <li class="nav-item mb-2 fs-5 ms-3">
+                            <a class="nav-link" href="#home">
+                                <i class="bi bi-house-door text-danger"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav-item mb-2 fs-5 ms-3">
+                            <a class="nav-link" href="#shop">
+                                <i class="bi bi-bag text-info"></i> Shop
+                            </a>
+                        </li>
+                        <li class="nav-item mb-2 fs-5 ms-3">
+                            <a class="nav-link" href="#about">
+                                <i class="bi bi-info-circle text-primary"></i> About Us
+                            </a>
+                        </li>
+                        <li class="nav-item mb-2 fs-5 ms-3">
+                            <a class="nav-link" href="#contact">
+                                <i class="bi bi-telephone text-success"></i> Contact Us
+                            </a>
+                        </li>
+                    </ul>
+
+
+                    <a href="#login"
+                        class="btn btn-dark py-2 px-3 rounded-3 fw-bold text-uppercase text-decoration-none custom-login-btn fs-6 ms-lg-3 mt-1 mt-lg-0 d-flex align-items-center justify-content-center">
+                        <i class="bi bi-person-circle me-2"></i>
+                        Login / Sign Up
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <!-- Search & Logo -->
+    <div class="container-fluid pt-2 d-flex justify-content-center align-items-center mt-2 bg-primary-subtle">
+
+        <a href="/" class="me-3">
+            <img src="images/FaugetShop1.png" class="img-fluid" width="250" alt="logo of BaskifY">
+        </a>
+
+
+        <input type="text" class="form-control form-control-lg w-50 border-0" placeholder="Search in BaskifY"
+            style="background-color: #e0e0e0;">
+
+
+
+        <button type="button" class="btn btn-info btn-lg ms-3">Search</button>
+    </div>
+
+
+
+    <!-- Carousel -->
+
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade mb-1" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/slider-01.jpg" class="d-block w-100" alt="Slide 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="display-5 display-md-4 display-lg-3">Your Daily Necessities, All in One Place</h3>
+                    <p class="fs-6 fs-md-5 fs-lg-4">Shop for everyday essentials from groceries to cleaning supplies and
+                        more. With fast delivery and
+                        affordable prices, we make it easier for you to get everything you need.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/slider-02.jpg" class="d-block w-100" alt="Slide 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="display-5 display-md-4 display-lg-3">Fashionable Clothing for Every Style</h3>
+                    <p class="fs-6 fs-md-5 fs-lg-4">Explore our vast collection of stylish and comfortable clothing for
+                        men, women, and kids. From
+                        casual wear to formal attire, find the perfect outfit for any occasion.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/slider-03.jpg" class="d-block w-100" alt="Slide 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="display-5 display-md-4 display-lg-3">Stylish Bags for Every Occasion</h3>
+                    <p class="fs-6 fs-md-5 fs-lg-4">Discover a wide range of trendy and durable bags that suit your
+                        style and needs. From casual
+                        totes to elegant evening bags, find the perfect one for any occasion.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/slider-4.jpg" class="d-block w-100" alt="Slide 4">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="display-5 display-md-4 display-lg-3">Glow with Our Premium Cosmetics</h3>
+                    <p class="fs-6 fs-md-5 fs-lg-4">Shop our collection of high-quality cosmetics, including skincare,
+                        makeup, and beauty essentials.
+                        Look and feel your best every day with products designed for all skin types.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/slider5.jpg" class="d-block w-100" alt="Slide 5">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="display-5 display-md-4 display-lg-3">Luxury Perfumes for a Timeless Scent</h3>
+                    <p class="fs-6 fs-md-5 fs-lg-4">Indulge in our exclusive selection of perfumes from world-renowned
+                        brands. Find your signature
+                        scent today and make every moment unforgettable.</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+
+
+
+    <!-- Shop -->
+
+    <section id="shop" class="pt-5 mt-1 shop-section">
+        <div class="container my-5">
+            <h2 class="text-center mb-5 text-uppercase">Shop Our Products</h2>
+            <div class="row g-4">
+                <!-- Product Card 1 - Laptop -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm h-100">
+                        <img src="images/laptop.jpg" class="card-img-top" alt="Laptop">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Laptop</h5>
+                            <p class="card-text">High-performance laptop perfect for work, gaming, and
+                                creativity.</p>
+                            <p class="card-text">
+                                <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9734;</span> <!-- Rating -->
+                                <span class="text-muted">(4.5/5)</span>
+                            </p>
+                            <p class="card-text">
+                                <span class="text-muted text-decoration-line-through">$1200</span>
+                                <!-- Original Price -->
+                                <span class="fw-bold text-danger ms-2">$1000</span> <!-- Discounted Price -->
+                                <span class="badge bg-success ms-2">20% OFF</span> <!-- Discount Percentage -->
+                            </p>
+                            <button class="btn btn-warning w-100">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 2 - Trendy Watch -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm h-100 position-relative">
+                        <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-3 p-2">Bestseller</span>
+                        <img src="images/trandwatch.jpg" class="card-img-top" alt="Watch">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Watch</h5>
+                            <p class="card-text">Trendy smartwatch to stay punctual and stylish every day.</p>
+                            <p class="card-text">
+                                <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <!-- Rating -->
+                                <span class="text-muted">(5/5)</span>
+                            </p>
+                            <p class="card-text">
+                                <span class="text-muted text-decoration-line-through">$600</span>
+                                <span class="fw-bold text-danger ms-2">$300</span>
+                                <span class="badge bg-success ms-2">50% OFF</span>
+                            </p>
+                            <button class="btn btn-warning w-100">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 3 - LG TV -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm h-100">
+                        <img src="images/lgtv.jpg" class="card-img-top" alt="TV">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Smart TV</h5>
+                            <p class="card-text">Experience entertainment like never before with our latest Smart TV.
+                            </p>
+                            <p class="card-text">
+                                <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                                <span class="text-muted">(4.8/5)</span>
+                            </p>
+                            <p class="card-text">
+                                <span class="text-muted text-decoration-line-through">$1800</span>
+                                <span class="fw-bold text-danger ms-2">$1620</span>
+                                <span class="badge bg-success ms-2">20% OFF</span>
+                            </p>
+                            <button class="btn btn-warning w-100">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 4 - Perfume -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm h-100">
+                        <img src="images/perfume.jpg" class="card-img-top" alt="Perfume">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Perfume</h5>
+                            <p class="card-text">Captivating scent to make a lasting impression wherever you go.
+                            </p>
+                            <p class="card-text">
+                                <span class="text-warning">&#9733;&#9733;&#9733;&#9734;&#9734;</span>
+                                <span class="text-muted">(3.8/5)</span>
+                            </p>
+                            <p class="card-text">
+                                <span class="text-muted text-decoration-line-through">$460</span>
+                                <span class="fw-bold text-danger ms-2">$190</span>
+                                <span class="badge bg-success ms-2">70% OFF</span>
+                            </p>
+                            <button class="btn btn-warning w-100">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 5 - Cosmetics -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm h-100 position-relative">
+                        <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-3 p-2">Bestseller</span>
+                        <img src="images/cosmetiics (1).jpg" class="card-img-top" alt="Cosmetics">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Cosmetic Box</h5>
+                            <p class="card-text">Enhance your beauty routine with top-quality cosmetics and skincare
+                                products.</p>
+                            <p class="card-text">
+                                <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                                <span class="text-muted">(5/5)</span>
+                            </p>
+                            <p class="card-text">
+                                <span class="text-muted text-decoration-line-through">$45</span>
+                                <span class="fw-bold text-danger ms-2">$36</span>
+                                <span class="badge bg-success ms-2">20% OFF</span>
+                            </p>
+                            <button class="btn btn-warning w-100">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 6 - MP3 Box -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm h-100">
+                        <img src="images/mp3box.jpg" class="card-img-top" alt="Mp3">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">MP3 Player</h5>
+                            <p class="card-text">Enjoy your favorite music anytime, anywhere with our compact MP3
+                                player.
+                            </p>
+                            <p class="card-text">
+                                <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                                <span class="text-muted">(4.3/5)</span>
+                            </p>
+                            <p class="card-text">
+                                <span class="text-muted text-decoration-line-through">$60</span>
+                                <span class="fw-bold text-danger ms-2">$48</span>
+                                <span class="badge bg-success ms-2">20% OFF</span>
+                            </p>
+                            <button class="btn btn-warning w-100">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 7 - Headphones -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm h-100">
+                        <img src="images/headphone.jpg" class="card-img-top" alt="Headphone">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Headphone</h5>
+                            <p class="card-text">Experience immersive sound with our high-quality headphone.
+                            </p>
+                            <p class="card-text">
+                                <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                                <span class="text-muted">(4.9/5)</span>
+                            </p>
+                            <p class="card-text">
+                                <span class="text-muted text-decoration-line-through">$150</span>
+                                <span class="fw-bold text-danger ms-2">$120</span>
+                                <span class="badge bg-success ms-2">20% OFF</span>
+                            </p>
+                            <button class="btn btn-warning w-100">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 8 - Smartphone -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm h-100">
+                        <img src="images/smartphone.jpg" class="card-img-top" alt="Smartphone">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Smartphone</h5>
+                            <p class="card-text">Stay connected with the latest smartphone featuring cutting-edge
+                                technology.</p>
+                            <p class="card-text">
+                                <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                                <span class="text-muted">(4.7/5)</span>
+                            </p>
+                            <p class="card-text">
+                                <span class="text-muted text-decoration-line-through">$700</span>
+                                <span class="fw-bold text-danger ms-2">$560</span>
+                                <span class="badge bg-success ms-2">20% OFF</span>
+                            </p>
+                            <button class="btn btn-warning w-100">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 9 - Bag -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm h-100 position-relative">
+                        <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-3 p-2">Bestseller</span>
+                        <img src="images/bag (1).jpg" class="card-img-top" alt="Bag">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Bag</h5>
+                            <p class="card-text">Modern, designer made stylish bag to complement your lifestyle.</p>
+                            <p class="card-text">
+                                <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                                <span class="text-muted">(4.9/5)</span>
+                            </p>
+                            <p class="card-text">
+                                <span class="text-muted text-decoration-line-through">$799</span>
+                                <span class="fw-bold text-danger ms-2">$740</span>
+                                <span class="badge bg-success ms-2">5% OFF</span>
+                            </p>
+                            <button class="btn btn-warning w-100">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Us -->
+    <section id="about" class="py-5 bg-light mt-1 mb-4">
+        <div class="container mt-4 mb-3">
+
+            <h2 class="text-center mb-5 text-uppercase mt-4">About Us</h2>
+
+            <div class="row align-items-center g-5 mt-2">
+
+                <div class="col-md-6">
+                    <img src="images/About-Us-PNG-Photos.png" alt="About Us Image"
+                        class="img-fluid rounded shadow-lg w-75">
+                </div>
+
+                <div class="col-md-6 mt-1 mt-md-0">
+                    <p class="text-secondary fs-5 mt-2 mt-md-0" style="text-align: justify;">
+                        Welcome to BaskifY, your one-stop shop for all things essential. We offer a curated collection
+                        of top-quality products from everyday necessities to premium items. Our mission is to provide a
+                        seamless and enjoyable shopping experience with unbeatable value and excellent customer service.
+                        Join us as we redefine convenience and style in every purchase.
+                    </p>
+
+                    <ul class="list-unstyled mt-3">
+                        <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Wide range of products</li>
+                        <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Affordable prices</li>
+                        <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Excellent customer support
+                        </li>
+                        <li><i class="bi bi-check-circle text-success me-2"></i>Fast, reliable delivery</li>
+                    </ul>
+
+                    <button class="btn btn-primary mt-4 mb-3">Learn More</button>
+                </div>
+            </div>
+
+
+            <div class="mt-5">
+                <h4 class="text-center mb-5 text-uppercase mt-5 text-info">Our Top Tech Companies</h4>
+                <div class="row justify-content-center mt-4">
+                    <div class="col-6 col-md-2 mb-3 mt-2">
+                        <img src="images/shopbybrand-1.png" alt="Company 1" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-md-2 mb-3 mt-2">
+                        <img src="images/shopbybrand-8.png" alt="Company 2" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-md-2 mb-3 mt-2">
+                        <img src="images/shopbybrand-3.png" alt="Company 3" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-md-2 mb-3 mt-2">
+                        <img src="images/shopbybrand-4.png" alt="Company 4" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-md-2 mb-3 mt-2">
+                        <img src="images/shopbybrand-5.png" alt="Company 5" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-md-2 mb-3 mt-2">
+                        <img src="images/shopbybrand-10.png" alt="Company 5" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- Contact Us -->
+    <section id="contact" class="py-5" style="background: linear-gradient(135deg, #FF6347, #FF8C00); color: #ffffff;">
+        <div class="container">
+
+            <h2 class="text-center text-uppercase mb-4 mt-4" style="color: #ffffff;">Contact Us</h2>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+
+                    <form>
+
+                        <div class="mb-4">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control rounded-pill border-0 p-3" id="name"
+                                placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control rounded-pill border-0 p-3" id="email"
+                                placeholder="Enter your email" required>
+                        </div>
+
+
+                        <div class="mb-4">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control rounded border-0 p-3" id="message" rows="3" cols="20"
+                                style="width: 100%; height: 200px; resize: none;" placeholder="Type your message"
+                                required></textarea>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-danger text-white rounded-pill px-5 py-2"
+                                style=" font-weight: bold; font-size: 1.1em; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer Section -->
+    <footer class="bg-light py-4" style="background: linear-gradient(135deg, #FF8C00, #FFD700);">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+
+                <div class="col-md-4">
+                    <h5 class="text-dark mb-3">Follow Us</h5>
+                    <div class="social-links">
+
+                        <a href="#" class="text-decoration-none mx-3" target="_blank">
+                            <i class="bi bi-facebook" style="font-size: 1.8rem; color: #3b5998;"></i>
+                        </a>
+                        <a href="#" class="text-decoration-none mx-3" target="_blank">
+                            <i class="bi bi-twitter" style="font-size: 1.8rem; color: #00acee;"></i>
+                        </a>
+                        <a href="#" class="text-decoration-none mx-3" target="_blank">
+                            <i class="bi bi-instagram" style="font-size: 1.8rem; color: #e1306c;"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+
+                <div class="row mt-4">
+                    <div class="col text-center">
+
+                        <p class="text-muted mb-0" style="font-size: 1rem; color: #333; font-weight: bold">&copy;
+                            BaskifY 2024 | All
+                            Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

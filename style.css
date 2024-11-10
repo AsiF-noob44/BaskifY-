@@ -1,0 +1,70 @@
+* {
+  font-family: "Andika", serif;
+}
+.carousel-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+@media (min-width: 768px) {
+  .carousel-caption h3 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .carousel-caption h3 {
+    font-size: 2.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1.125rem;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel-caption h3 {
+    font-size: 3rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 767px) {
+  .carousel-caption h3 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.875rem;
+  }
+}
+.shop-section {
+  background-color: #f7f7f7;
+}
+.card {
+  border: 1px solid #ddd;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  border-color: #ffc107;
+}
+.btn-warning {
+  transition: background-color 0.3s ease;
+}
+.btn-warning:hover {
+  background-color: #e0a800;
+}
+.card:hover .badge {
+  transform: scale(1.1); /* Enlarge on hover */
+  transition: transform 0.3s ease-in-out;
+}
